@@ -1,0 +1,151 @@
+{
+  "mod_elements": [
+    {
+      "name": "WitherMeal",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_meal"
+    },
+    {
+      "name": "WitherMealRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_meal_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WitherBone",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_bone"
+    },
+    {
+      "name": "WitherBoneToWitherMeal",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_bone_to_wither_meal"
+    },
+    {
+      "name": "WitherBoneBlock",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_bone_block"
+    },
+    {
+      "name": "WitherMealToWitherBoneBlock",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_meal_to_wither_bone_block"
+    },
+    {
+      "name": "WitherMealToBlackDye",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_meal_to_black_dye"
+    },
+    {
+      "name": "WitherSkeleton",
+      "type": "loottable",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wither_skeleton"
+    },
+    {
+      "name": "WitherRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_recipe"
+    },
+    {
+      "name": "WitherPotions",
+      "type": "potion",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_potions"
+    },
+    {
+      "name": "WitherBoneBlockToWitherMeal",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_bone_block_to_wither_meal"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.minecraft.splash_potion.effect.wither_potions": "Splash Potion of Wither",
+      "block.wither_bones.wither_bone_block": "Wither Bone Block",
+      "item.minecraft.potion.effect.wither_potions": "Potion of Wither",
+      "item.minecraft.lingering_potion.effect.wither_potions": "Lingering Potion of Wither",
+      "item.wither_bones.wither_meal": "Wither Meal",
+      "item.wither_bones.wither_bone": "Wither Bone",
+      "item.minecraft.tipped_arrow.effect.wither_potions": "Arrow of Wither"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "wither_bones",
+    "modName": "Wither Bones",
+    "version": "1.0.0",
+    "author": "Tushar, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.19.1",
+    "modElementsPackage": "net.riot.witherbones",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

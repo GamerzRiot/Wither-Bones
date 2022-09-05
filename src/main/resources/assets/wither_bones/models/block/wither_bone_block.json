@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wither_bones:blocks/withered_bone_block_top_and_bottom",
+    "up": "wither_bones:blocks/withered_bone_block_top_and_bottom",
+    "north": "wither_bones:blocks/withered_bone_block_sides",
+    "east": "wither_bones:blocks/withered_bone_block_sides",
+    "south": "wither_bones:blocks/withered_bone_block_sides",
+    "west": "wither_bones:blocks/withered_bone_block_sides",
+    "particle": "wither_bones:blocks/withered_bone_block_top_and_bottom"
+  }
+}

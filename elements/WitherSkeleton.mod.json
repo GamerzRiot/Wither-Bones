@@ -1,0 +1,10 @@
+{
+  "_fv": 33,
+  "_type": "loottable",
+  "definition": {
+    "type": "Entity",
+    "pools": [],
+    "name": "entities/wither_skeleton",
+    "namespace": "minecraft"
+  }
+}

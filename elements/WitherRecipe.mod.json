@@ -1,0 +1,23 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "POTION:AWKWARD"
+    },
+    "brewingIngredientStack": {
+      "value": "CUSTOM:WitherMeal"
+    },
+    "brewingReturnStack": {
+      "value": "POTION:CUSTOM:WitherPotions"
+    },
+    "name": "wither_recipe",
+    "namespace": "mod"
+  }
+}

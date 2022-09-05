@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "wither_bones:wither_meal"
+    },
+    "1": {
+      "item": "wither_bones:wither_meal"
+    },
+    "2": {
+      "item": "wither_bones:wither_meal"
+    },
+    "3": {
+      "item": "wither_bones:wither_meal"
+    },
+    "4": {
+      "item": "wither_bones:wither_meal"
+    },
+    "5": {
+      "item": "wither_bones:wither_meal"
+    },
+    "6": {
+      "item": "wither_bones:wither_meal"
+    },
+    "7": {
+      "item": "wither_bones:wither_meal"
+    },
+    "8": {
+      "item": "wither_bones:wither_meal"
+    }
+  },
+  "result": {
+    "item": "wither_bones:wither_bone_block",
+    "count": 1
+  }
+}

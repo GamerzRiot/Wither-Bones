@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "wither_bones",
+  "version": "1.0.0",
+  "name": "Wither Bones",
+  "authors": [
+    "Tushar, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.riot.witherbones.WitherBonesMod"
+    ],
+    "client": [
+      "net.riot.witherbones.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  }
+}

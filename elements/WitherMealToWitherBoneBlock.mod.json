@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:WitherMeal"
+      },
+      {
+        "value": "CUSTOM:WitherMeal"
+      },
+      {
+        "value": "CUSTOM:WitherMeal"
+      },
+      {
+        "value": "CUSTOM:WitherMeal"
+      },
+      {
+        "value": "CUSTOM:WitherMeal"
+      },
+      {
+        "value": "CUSTOM:WitherMeal"
+      },
+      {
+        "value": "CUSTOM:WitherMeal"
+      },
+      {
+        "value": "CUSTOM:WitherMeal"
+      },
+      {
+        "value": "CUSTOM:WitherMeal"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WitherBoneBlock"
+    },
+    "name": "wither_meal_to_wither_bone_block",
+    "namespace": "mod"
+  }
+}
